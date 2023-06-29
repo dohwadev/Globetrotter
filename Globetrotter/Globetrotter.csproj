@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <Version>1.2.8</Version>
-        <TargetFramework>net6-windows</TargetFramework>
+        <TargetFramework>net7-windows</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
         <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
@@ -10,7 +10,7 @@
         <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
     <PropertyGroup>
-        <DalamudLibPath>E:\GitHubDesktop\Dalamud 7.3.5.0\bin\Release</DalamudLibPath>
+        <DalamudLibPath>E:\GitHubDesktop\dohwacorp\Dalamud\bin\Release</DalamudLibPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
         <DalamudLibPath>$(DALAMUD_HOME)</DalamudLibPath>
